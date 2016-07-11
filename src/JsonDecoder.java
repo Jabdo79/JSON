@@ -13,8 +13,8 @@ public class JsonDecoder {
 		JSONParser parser = new JSONParser();
 
 		try {
-
-			Object obj = parser.parse(new FileReader("C:\\Users\\Jonathan Abdo\\workspace EE\\JSON\\test.json"));
+			
+			Object obj = parser.parse(new FileReader("test.json"));
 
 			JSONObject jsonObject = (JSONObject) obj;
 

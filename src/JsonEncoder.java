@@ -24,7 +24,7 @@ public class JsonEncoder {
 
 		try {
 
-			FileWriter file = new FileWriter("C:\\Users\\Jonathan Abdo\\workspace EE\\JSON\\test.json");
+			FileWriter file = new FileWriter("test.json");
 			file.write(obj.toJSONString());
 			file.flush();
 			file.close();
